@@ -372,5 +372,3 @@ const showPriceRanges = (priceRanges) => {
 	for (let range of priceRanges) console.log(range);
 };
 showPriceRanges(priceRanges);
-
-// Object Oriented Programming (OOP)
