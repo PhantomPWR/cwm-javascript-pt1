@@ -50,7 +50,12 @@ console.log(z < 1); // false
 console.log(z <= 1); // true
 
 // Equality Operators
+// Strict Equality (Type + Value)
 console.log(z === 1); // true
+console.log('1' === 1); // false - different
+
+// Loose Equality (Value) - doesn't care about the type
+console.log(z == 1); // true
 console.log(z !== 1); // false
 
 // Ternary Operator
